@@ -1,0 +1,319 @@
+/**header section**/
+header {
+    width: 100%;
+    height: 80px;/*100%にするとヘッダー固定時にheight画面いっぱいになる*/
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 30;/*他の要素の階層に影響、設定注意*/
+    background-color: #FFFFFF;
+    color: #000000;
+}
+.header-inner {
+    max-width: 1920px;
+    height: 80px;
+    display: flex;
+    align-items: center;
+}
+
+h1.header-logo {
+    width: 200px;
+    height: 40px;
+    margin-left: 20px;
+    margin-right: 120px;
+}
+
+.header-navi {
+    width: 100%;
+    height: 100%;
+}
+.header-navi-lists {
+    height:80px;
+    display: flex;
+    align-items: center;
+    vertical-align: middle;
+}
+
+.header-navi-list {
+    margin-right: 30px;
+    font-size: 16px;
+    font-weight: 800;
+    line-height: 2.6;
+    color: #000000;
+}
+
+/*css under line effects*/
+.header-navi-list {
+    position: relative;
+    display: inline-block;
+    text-decoration: none;
+  }
+  .header-navi-list::after {
+    position: absolute;
+    bottom: -4px;
+    left: 0;
+    content: '';
+    width: 100%;
+    height: 2px;
+    background: #000000;
+    transform: scale(0, 1);
+    transform-origin: center top;
+    transition: transform .3s;
+  }
+  .header-navi-list:hover::after {
+    transform: scale(1, 1);
+  }
+/*css under line effects*/
+ 
+/**/
+  
+/*want this
+ at the most right side of the header*/
+.bookingbuttoninner {
+    margin-left: auto;
+    margin-right: 20px;
+}
+
+.bookingbuttoninner {
+    width: 170px;
+    height: 54px;
+    background-color: #978F10;
+    color: #FFFFFF;
+    font-size: 16px;
+    font-weight: 800;
+    display: flex;
+    align-items: center;
+    cursor:pointer;
+}
+.bookingbuttoninner::before {
+    width: 22px;
+    height: 22px;
+    content: url(/img/calender.png);
+    margin-left: 37px;
+}
+.bookingbutton-title {
+    margin-left: 10px;
+    font-size: 16px;
+    font-weight: 800;
+    line-height: 3;
+}
+.sp-nav-wrapper {
+    display: none;
+}
+
+
+
+/*MV section*/
+.mv-section {
+    width: 100%;
+    height: 100%;
+    padding-top: 80px;
+}
+.mainvisualinner {
+    width:100%;
+    height:500px;
+    position: relative;
+}
+.mainvisualinner::before{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: block;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.05);
+    z-index: 5;
+      }
+  .main_img {
+    width: 100%;
+    height: 100%;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+  }
+  h2.onsen {
+    width: 170px;
+    padding:0 20px;
+    text-align: center;
+    display: inline-block;
+    color: #FFFFFF;
+    font-size: 34px;
+    font-weight: 800;
+    line-height: 100px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateY(-50%) translateX(-50%);
+    -webkit-transform: translateY(-50%) translateX(-50%);
+    z-index: 6;
+}
+/*main visual effect end*/
+
+/*feature sextion*/
+.feature {
+    max-width: 1920px;
+    height: 2063px;
+    margin-top: 80px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.featureinner {
+    max-width: 1180px;
+    margin: auto;
+    margin-top: 78px;
+}
+.BreadcrumbList {
+    margin-top: 36px;
+    font-size: 16px;
+    line-height: 32px;
+    font-weight: 500;
+}
+.onsen_title {
+    text-align: center;
+    margin-top: 98px;
+    padding-bottom: 78px;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 32px;
+}.featurebox {
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    margin-bottom: 141px;
+}
+
+
+.featureboxphoto {
+    max-width: 525px;
+    max-height: 300px;
+ }
+ .textbox{
+    width:813px ;
+    height: 381px;
+    background-image: url(/img/bg.png);
+    z-index: -1;
+    margin-left: -131px;
+    margin-top: 50px;
+}
+.textbox2{
+    width:813px ;
+    height: 381px;
+    text-align: left;
+    background-image: url(/img/bg.png);
+    z-index: -1;
+    margin-top: 50px;
+}
+
+.featuretext {
+    margin-top: 60px;
+    margin-left: 238px;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 32px;
+    color: #000000;
+    }
+.featuretextp {
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 32px;
+    color: #000000;
+    margin-top: 52px;
+    margin-left: 238px;
+}
+.noticetext {
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 1.5;
+    color: #000000;
+    margin-top: 52px;
+    margin-left: 244px;
+    margin-right: 68px;
+}
+.featuretext2 {
+    margin-top: 60px;
+    margin-left: 60px;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 32px;
+    color: #000000;
+    }
+.featuretextp2 {
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 32px;
+    color: #000000;
+    margin-top: 52px;
+    margin-left: 60px;
+}
+.noticetext2 {
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 1.5;
+    color: #000000;
+    margin-top: 52px;
+    margin-left: 60px;
+    margin-right: 68px;
+}
+.fadeinright {
+    margin-left: -131px;
+}
+
+/*onsen section*/
+.onsensection {
+    display: block;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom:96.5px;
+}
+.onseninner {
+    max-width: 1180px;
+    margin-left: auto;
+    margin-right: auto;
+    border-top: solid 1px #E7E7E7;
+    border-bottom: solid 1px #E7E7E7;
+    border-collapse: collapse;
+}
+.onsentitle {  
+    display: block;
+    margin-top: 95.5px;
+    padding-bottom: 51.5px;
+    font-size: 26px;
+    font-weight: 500;
+    line-height: 32px;
+    text-align: center;
+    
+}
+.onseneffectlists {
+    width: 100%;
+    padding-bottom: 74px;
+}
+.onseneffectlist {
+    max-width: 880px;
+    display: flex;
+    align-items: center;
+    margin: auto;
+    border-bottom: solid 1px #E7E7E7;
+    border-collapse: collapse;
+}
+
+.aboutonsen {
+    min-width: 60px;
+    text-align: left;
+    display: inline;
+    padding:17.5px 0;
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 32px;
+    margin-left:0px ;
+    margin-right: 160px;
+}
+.aboutonsenleft {
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 22px;
+}
+
+

@@ -1,0 +1,528 @@
+@media (max-width:1920px) {
+    header {
+        width: 100%;
+    }
+    
+    p.mv-title {
+        position: absolute;
+        top: 30vh;
+        left: 60vw;
+        writing-mode: vertical-rl;
+        color: #FFFFFF;
+        font-size: 34px;
+        font-weight: 800;
+        line-height: 100px;
+        z-index: 20;
+    }
+
+/*feature section*/
+.feature {
+    width: 100%;
+    height: 100%;
+}
+.featureinner {
+    max-width: 1920px;
+    max-height:2063px ;
+    padding-top: 7%;
+    padding-bottom:7%;
+}
+.feature-contents {
+    height: 100%;
+}
+.feature-photo {
+   height: 100%;
+ }
+ .flex {
+     margin: 6% 0;
+ }
+.js-fadeinright {
+    margin-left: 8%;
+}
+ .text-contents {
+     max-width: 40%;
+    height: 100%;
+     }
+.feature-title {
+    margin-top: 7%;
+    }
+.feature-subtitle {
+    margin-top: 10%;
+}
+.aboutroom {
+    margin-top: 15% ;
+} .aboutfood {
+    margin-top: 10%;
+}
+
+ 
+/*info section*/
+.infotitle {
+    margin-right: 5%;
+}
+.info-subtitle {
+        margin-right: 5%;
+}
+.info-text {
+        margin-right: 15%;
+}
+.info-end {
+        margin-right: 15%;
+        margin-left: 2%;
+     }
+}  
+
+@media (max-width:1790px) {
+ 
+    /*feature section*/
+      .flex {
+          margin: 3% 0;
+      }
+     .js-fadeinright {
+         margin-left: 8%;
+     }
+      .text-contents {
+          max-width: 40%;
+          height: 30%;
+          margin:0 5% ;
+      }
+     .feature-title {
+         font-size: 30px;
+         line-height: 1.5;   
+        }
+     .feature-subtitle {
+         margin-top: 5%;
+         line-height: 1.5;
+     }
+     .aboutroom {
+         margin-top: 10% ;
+         padding: 15px 35px;
+     } .aboutfood {
+         margin-top: 8%;
+         padding: 15px 35px;
+     }
+     /*address section*/
+     .accesscontents {
+        padding:4% 5% 0 10%;
+    }
+   
+     .address-new-line {
+         display: none;
+     }
+   
+    }
+
+    @media (max-width:1500px) {
+        /*feature section*/
+        .feature-contents {
+            height: 100%;
+        }
+          .flex {
+              margin: 5% 0;
+          }
+          .feature-photo {
+           max-width: 50%;
+            height: 39%; 
+          }
+          .text-contents {
+            height: 5%;
+            margin:0 5% ;
+        }
+         .feature-title {
+             font-size: 25px;
+             line-height: 1.5;   
+            }
+.newline-feature-sub {
+    display: none;
+}
+         .aboutroom {
+             margin-top: 8% ;
+         } .aboutfood {
+             margin-top: 5%;
+         }         
+}
+       
+
+@media (max-width:1400px) {
+            /*feature section*/
+             .feature-title {
+                 font-size: 25px;
+                 line-height: 1.5;   
+                }
+    .newline-feature-sub {
+        display: none;
+    }
+             .aboutroom {
+                 margin-top: 8% ;
+             } .aboutfood {
+                 margin-top: 5%;
+             }
+             
+            }
+
+           
+@media (max-width:1200px) {
+    /*plan section*/
+.planinner {
+    padding:5% 0; 
+}
+.recommendplan {
+    width: 27%;
+}
+.plan-img img {
+    margin-top: 7%;
+    width: 100%;
+    height: 100%;
+}
+.br-plan-text {
+    display: none;
+}
+/*new section*/
+.newcontainer {
+    width: 46%;
+    height: 130px;
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+    margin-left: 2%;
+    background-color: #F6F6F6;
+}
+
+.newcontainer-right{
+    width: 46%;
+    height: 130px;
+    margin-right: 2%;
+    display: flex;
+    align-items: center;
+    background-color: #F6F6F6;
+}
+.br-new-text {
+    display: none;
+}
+/*access section*/
+.accesscontents {
+        padding-left:  4%;
+    }
+     .address-new-line {
+         display: none;
+     }
+     .accessphoto img {
+         width: 100%;
+     }
+    }
+
+@media (max-width:840px) {
+    .header-inner{
+        height: 60px;
+        padding-top: 10px;
+    }
+    .header-navi-lists {
+        height:60px;
+        display: flex;
+        align-items: center;
+        vertical-align: middle;
+    }
+    h1.header-logo {
+        min-width: 150px;
+        height: 30px;
+        margin-left: 20px;
+        margin-right: 120px;
+    }
+/*mv section*/
+.mainvisual-inner {
+    height:60vh;
+    overflow: hidden;
+    position: relative;
+}
+p.mv-title {
+    position: absolute;/*center setting*/
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    writing-mode: vertical-rl;
+    color: #FFFFFF;
+    font-size: 20px;
+    line-height: 2;
+    z-index: 20;
+}
+/*info section*/
+.infotitle {
+    margin-right: 2%;
+}
+h2.infotitle {
+    font-size: 20px;
+}
+.info-subtitle {
+        margin-right: 2%;
+}
+h2.info-subtitle {
+    font-size: 20px;
+}
+.info-text {
+        margin-right: 5%;
+}
+.info-end {
+        margin-right: 10%;
+        margin-left: 2%;
+     }
+
+    /*feature section*/
+    .featureinner {
+        height: 100%;
+        padding-top: 5%;
+        padding-bottom: 5%;
+        margin: auto;
+    }
+    .feature-contents {
+        height: 30%;
+        display: flex;
+        flex-direction:column;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 5%;
+        position: relative;
+    }
+    .feature-photo {
+        all: unset;
+        width: 80%;
+        height: 50%; 
+        object-fit: cover;
+      } 
+      .text-contents {
+        max-width: 75%;
+        height: 100%;
+        text-align: center;
+        }
+        .newline-feature {
+            display: none;
+        }
+      .feature-title {
+          font-size: 20px;
+        color: #000000;
+        }
+    .feature-subtitle {
+        font-size: 15px;
+        line-height: 2;
+        color: #000000;
+    }    
+    .aboutroom {
+        margin-top: 3%;
+        color: #000000;
+        border: solid 1px #000000;
+    } .aboutfood {
+        margin-top: 3%;
+        color: #000000;
+        border: solid 1px #000000;
+    }
+
+    /*plan*/
+    .recommendplaninner {
+        margin-top: 5% ;
+    }
+    /*google map*/
+    .map {
+        width: 80%;
+        height: 250px;
+        margin-top: 120px;
+        margin-left: auto;
+        margin-right: auto;
+        position: relative;
+       }
+       .map iframe {
+           position: absolute;
+           top: 0;
+           left: 0;
+           width: 100%;
+           height: 100%;
+       }
+}  
+
+@media (max-width:740px) {
+    .header-navi-lists {
+        display: none;
+    }
+/*mv section*/
+
+/*info section*/
+.infotitle-inner {
+    writing-mode:horizontal-tb;
+    text-orientation: upright;
+    height: 100%;
+    padding-top: 5%;
+}
+.infotitle {
+    margin-top: auto;
+    padding-top: 5%;
+    padding-left: 3%;
+    font-size: 25px;
+}
+
+.info-subtitle {
+    margin-top: 3%;
+    margin-bottom: 5%;
+    padding-left: 3%;
+    font-size: 25px;
+    font-weight: 500;
+    color:#000000;
+    line-height:1 ;
+    letter-spacing: 0.1em;
+    margin-right: 33px;
+}
+.info-text {
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 2;
+    letter-spacing: 0.35em;
+    padding-top: 5%;
+    margin-left: 5%;
+}
+
+.info-end {
+    text-align: right;
+    font-size: 20px;
+    margin-top: 10%;
+    margin-right: 118px;
+    line-height: 1.4;
+    letter-spacing: 0.2em;
+    }
+
+    
+/********plan section**********/
+.plan {
+    background-color:white ;
+    width: 100%;
+    height: 100%;
+    margin-top: 5%;
+    text-align: center;
+    background-image: url(/img/bg02.png);
+    background-position:center;
+    background-repeat:repeat-y;
+}
+.planinner {
+    max-width: 1180px;
+    height: 100%;
+}
+.recommendplaninner {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.recommendplan {
+    width: 90%;
+    padding-bottom: 3%;
+}
+
+/*new section*/
+.newcontainers {
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.newcontainer {
+    all:unset;
+    width: 65%;
+    height: 130px;
+    background-color: #F6F6F6;
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.newcontainer-right{
+    all: unset;
+    width: 65%;
+    height: 130px;
+    background-color: #F6F6F6;
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+}
+/*access section*/
+.accesscontents {
+    width: 100%;
+    height: 100%;
+    padding-left: unset;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5%;
+}
+.accesstext-containers {
+    width: 95%;
+    height: 100%;
+    padding-left: 5%;
+    padding-top: 20px;
+}
+.accessphoto img {
+    width: 90%;
+    height: 80%;
+    margin-left: 5%;
+}
+}
+
+@media (max-width:550px) {
+    .infotitle-inner {
+        writing-mode:horizontal-tb;
+        text-orientation: upright;
+        height: 40%;
+        padding-top: 10%;
+    }
+    .info-end {
+        margin-top: 15%;
+        margin-right: 15%;
+        }
+}
+    @media (max-width:470px) {
+        .no-br-less370px {
+        display: none;
+    }
+    .feature-title {
+        font-size: 20px;
+        }
+    .feature-subtitle {
+        font-size: 15px;
+    }    
+    .aboutroom {
+        margin-top:10%;
+ }
+ .newcontainer {
+     width: 70%;
+     height: 100%;
+     padding: 5%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 20px;
+    background-color: #F6F6F6;
+}
+
+.newcontainer-right{
+     width: 70%;
+     height: 100%;
+     padding: 5%;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   margin-bottom: 20px;
+   background-color: #F6F6F6;
+}
+.newcontainer-text {
+    margin-top: 5%;
+    margin-left: 30px;
+}
+/*info secion*/
+.infotitle-inner {
+    padding-top: 20%;
+}
+.info-end {
+    margin-top: 20%;
+    margin-right: 15%;
+    }
+}
+    @media (max-width:370px) {
+        .no-br-less370px {
+        display: none;
+    }
+}

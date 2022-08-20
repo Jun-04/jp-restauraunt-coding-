@@ -1,0 +1,232 @@
+@media (max-width:1920px) {
+    header {
+        width: 100%;
+    }
+ }
+ @media (max-width:900px) {
+  
+    h1.header-logo {
+        max-width: 200px;
+        margin-left: 20px;
+        margin-right: 120px;
+    }
+    .header-navi-lists {
+        height:100%;
+        display: flex;
+        vertical-align: middle;
+      }
+/*feature sextion*/
+.BreadcrumbList {
+    margin-top: 3%;
+    padding-left: 3%;
+    font-size: 16px;
+    line-height: 32px;
+    font-weight: 500;
+}
+.roomtitle {
+    text-align: center;
+    margin-top: 15%;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 32px;
+}
+.featureinner {
+    width: 95%;
+    height: 100%;
+    margin:0 auto;
+    margin-top: 0%;
+}
+
+
+.featurebox {
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    margin-bottom: 7%;
+    padding-right: 2%;
+
+}
+
+.featureboxphoto {
+    width: 45%;
+    margin-top: 5%;
+ }
+ .textbox{
+    width: 70%;
+    max-height: 381px;
+    background-image: url(/img/bg.png);
+    z-index: -1;
+    margin-left: 0%;
+    margin-top: 15%;
+    padding-right: 2%;
+}
+.textbox2{
+    width: 70%;
+    max-height: 381px;
+    text-align: left;
+    background-image: url(/img/bg.png);
+    z-index: -1;
+    margin-top: 15%;
+    padding-left: 2%;
+
+}
+
+.featuretext {
+    margin-top: 10%;
+    margin-left: 35%;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 32px;
+    color: #000000;
+    }
+.featuretextp {
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 32px;
+    color: #000000;
+    margin-top: 4%;
+    margin-left: 35%;
+}
+.noticetext {
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 1.5;
+    color: #000000;
+    margin-top: 3%;
+    margin-left: 35%;
+    margin-right: 68px;
+    margin-bottom: 2%;
+}
+.featuretext2 {
+    margin-top: 15%;
+    margin-left: 5%;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 32px;
+    color: #000000;
+    }
+    .featuretextp2 {
+        font-size: 16px;
+        font-weight: 500;
+        line-height: 32px;
+        color: #000000;
+        margin-top: 5%;
+        margin-left: 5%;
+    }
+    .noticetext2 {
+        font-size: 14px;
+        font-weight: 500;
+        line-height: 1.5;
+        color: #000000;
+        margin-top: 5%;
+        margin-left: 5%;
+        margin-right: 0%;
+    }
+ .feature-flex {
+     position: relative;
+ }
+
+
+
+     }
+@media (max-width:740px) {
+    h1.header-logo {
+        min-width: 80px;
+        height: 40px;
+        margin-left: 20px;
+        margin-right: 120px;
+    }
+    .header-navi-lists {
+        display: none;
+    }
+
+/*feature section*/
+.feature {
+    width: 100%;
+    height: 100%;
+    padding-bottom: 5%;
+}
+.roomtitle {
+margin-top: 5%;
+padding-bottom: 3%;
+}
+.featurebox {
+    width: 100%;
+    height: 33%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position:static;
+    margin-bottom: 3%;
+}
+
+.featureboxphoto {
+    width: 100%;
+ }
+ .photo-left {
+     margin-right: 0px;
+ } 
+ .photo-right {
+     margin-left: 0px;
+ }
+ .textbox{
+    width: 100%;
+    height: 100%;
+    background-image: url(/img/bg.png);
+    z-index: -1;
+    margin:auto;
+    margin-top: 5%;
+    text-align: center;
+}
+.textbox2{
+    width: 100%;
+    height: 33%;
+    max-height: 381px;
+    text-align: center;
+    background-image: url(/img/bg.png);
+    z-index: -1;
+    margin-top: 5%;
+}
+.feature-flex {
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: center;
+    align-items: center;
+}
+.featuretext {
+    margin-top: 5%;
+    margin-left: 0%;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 32px;
+    color: #000000;
+    }
+.featuretextp {
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 32px;
+    color: #000000;
+    margin-top: 4%;
+    margin-left: 0%;
+}
+.noticetext {
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 1.5;
+    color: #000000;
+    margin-top: 3%;
+    margin-left: 0%;
+    margin-right: 0%;
+    margin-bottom: 5%;
+}
+.featuretext2 {
+    margin-top: 4%;
+    margin-left: 0%;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 32px;
+    color: #000000;
+    }
+    
+}

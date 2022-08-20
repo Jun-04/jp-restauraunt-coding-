@@ -1,0 +1,370 @@
+/*common*/
+body {
+    padding: 0 0;
+    margin: 0 0;
+    font-family :“Times New Roman”, “游明朝”, “Yu Mincho”, “游明朝体”, “YuMincho”, “ヒラギノ明朝 Pro W3”, “Hiragino Mincho Pro”, “HiraMinProN-W3”, “HGS明朝E”, “ＭＳ Ｐ明朝”, “MS PMincho”, serif;
+    color: #000000;
+    box-sizing: border-box;
+}
+a{
+    text-decoration:none;
+}
+li {
+    list-style: none;
+}
+img {
+    width: 100%;
+    vertical-align: bottom;
+    object-fit: cover;
+}
+/*sp-fixed display*/
+body.noscroll{
+    overflow: hidden;
+  }
+
+/*common footer section*/
+
+.footer { display: none;
+    width: 100%;
+    height: 100%;
+    background-image: url(/img/bg3.png);
+    background-position:center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-bottom: 61px;
+    
+ }
+ .footer-inner {
+     max-width: 1920px;
+     max-height: 522px;
+     margin: auto;
+ }
+ .footer-logo {
+     width: 145px;
+     height: 92px;
+     margin:0 auto;
+ }
+ .footernavi {
+    color: #000000;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 32px;
+    writing-mode: vertical-rl;
+    margin:  auto;
+    list-style: none;
+    padding-top: 64px;
+ }
+ .footernavi li {
+    color: #000000;
+ }
+ .footer-container {
+ text-align: center;
+ padding-top: 96px;
+ }
+ 
+ .footertext{
+    font-size: 16px;
+    font-weight: 500;
+    color:#000000 ;
+    line-height: 48px;
+ }
+ .footerspan {
+    margin-left:12px ;
+    font-size: 16px;
+    font-weight: 500;
+    color:#000000 ;
+    line-height: 48px;
+    letter-spacing: 2.88px;
+ }
+ .footertext2{
+    font-size: 16px;
+    font-weight: 500;
+    color:#000000 ;
+    line-height: 48px;
+ }
+ .footerspan2 {
+    margin-left:20px ;
+    font-size: 16px;
+    font-weight: 500;
+    color:#000000 ;
+    line-height: 48px;
+ }
+ 
+ /*footer-copyright section*/
+ .copyright {
+   width: 100%;
+   height: 60px;
+   background-color: #000000;
+   text-align: center;
+ }
+ .copyright-text{
+     max-width: 1980px;
+     height: 60px;
+     text-align: center;
+     color: #FFFFFF;
+     font-size: 12px;
+     font-weight: 500;
+     line-height: 60px;
+     text-align: center;
+ }
+ 
+/*jquery effects*/
+.modalArea {
+  width: 100vw;
+  height: 100vh;
+  visibility: hidden;
+  position: fixed;
+  top: 0;
+  left: 0;
+  opacity: 0;
+  z-index: 32; /*サイトによってここの数値は調整 */
+  transition: .4s;
+}
+.modalBg {
+  width: 100vw;
+  height: 100vh;
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-color: #707070;
+  opacity: 0.7;
+  z-index: 32;
+}
+
+.modalWrapper {
+  width: 550px;
+  height: 600px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform:translate(-50%,-50%);  
+  background-color: #FFFFFF;
+  border: solid 1px #707070;
+  z-index: 32;
+}
+
+.closeModal {
+  display: block;
+  background-image: url(/img/close.png);
+  background-repeat: no-repeat;
+  padding: 18px;
+  position: absolute;
+  top: 1.0rem;
+  right: 0.5rem;
+  cursor: pointer;
+}  
+.is-show {
+  /* モーダル表示用クラス */
+  visibility: visible;
+  opacity: 1;
+}
+
+
+.modalareatitle {
+  width: 429.9px;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 1.2;
+  padding-bottom: 29.5px;
+  margin-top: 29.5px;
+  margin-bottom: 35.5px;
+  border-bottom: solid 1px #E7E7E7;
+  text-align:center;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+dt {
+margin-left: 61px;
+}
+.formbody {
+font-size: 16px;
+font-weight: 500;
+line-height: 1.6;
+margin-bottom: 14px;
+}
+.formtext {
+  margin: 0 auto;
+  width: 429px;
+  height: 32px;
+  border:solid 1px #E7E7E7;
+  margin-top: 14px;
+  padding-left: 10px;
+  color: #757575;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 1.7;
+}
+.plansubtitle {
+font-size: 14px;
+}
+.modal-plan-subtitle{
+  display: none;
+}
+select {
+  width: 100%;
+  color: #000000;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 1.7;
+}
+
+select:invalid {
+  color: #757575;
+}
+
+.modalsubmitbutton {
+  display: block;
+  margin: 0 auto;
+  margin-top: 64px;
+  width: 198px;
+  height: 42px;
+  border :solid 1px #707070;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.6;
+  color: #000000;
+} 
+@media (max-width:740px) {
+.modalWrapper {
+  width: 80%;
+  height: 90%;
+}
+.modalareatitle {
+  width: auto;
+}
+dt {
+  margin-left: 20px;
+  }
+.formbody {
+  font-size: 14px;
+}
+.formtext {
+  margin: 0 auto;
+  width: 90%;
+}
+.modal-plan-subtitle {
+  display: block;
+}
+.modalsubmitbutton {
+  width: 50%;
+}
+}
+
+/*hamburger*/
+@media (max-width:740px) {
+.burger-btn{
+  display: block;      
+  min-width: 40px;      
+  min-height: 40px;    
+  position: relative; /*to set the menu on the header*/
+  right: 15px;
+  bottom: 10px;
+  z-index: 30;
+  border:none;  
+}    
+.bar{      
+  width: 20px;      
+  height: 1px;        
+  display: block;      
+  position: absolute;      
+  left: 50%;      
+  transform: translateX(-50%);      
+  background-color: #000000;    
+}    
+.bar_top{   
+  top: 12px;
+}
+.bar_mid{    
+  top: 50%;
+  transform: translate(-50%,-50%);
+}
+.bar_bottom{
+  bottom: 12px;
+}
+/*burger-btn-effects*/
+.burger-btn.close .bar_top{      
+  transform: translate(-50%,7px) rotate(45deg);      
+  transition: transform .3s; 
+  background-color:#fff;
+  ;   
+}    
+.burger-btn.close .bar_mid{      
+  opacity: 0;       
+  transition: opacity .4s;    
+}    
+.burger-btn.close .bar_bottom{      
+transform: translate(-50%,-8px) rotate(-45deg);      
+transition: transform .3s;   
+background-color:#fff; 
+}
+/**/
+.sp-nav-wrapper{    
+ /* display: none;  */
+  width: 100%;      
+  height: 100vh;      
+  position: fixed;      
+  top: 0;      
+  right: 0;       
+  z-index:30;     
+  background-color:#1b1310e8;    
+}   
+.sp-nav-wrapper-inner {
+  width: 250px;
+  height: 400px;
+  position: relative;
+  top: 50%;
+  left: 50%;
+  transform:translate(-50%,-50%);  
+  background-color: #FFFFFF;
+  border: solid 1px #707070;
+  border-radius: 9px;
+}
+.sp-menu-logo {
+    max-width: 40px;
+    max-height: 40px;
+    margin :auto;
+    padding-top: 65px;
+}
+.sp-header-navi{
+    width: 100%;
+    height: 100%;
+    margin-top: 50px;
+}
+li.sp-navi-item{
+  text-align: center;
+  padding-top: 15px;
+  color:#000000;
+}
+/*booking btn css*/
+.bookingbuttoninner {
+    margin: unset;
+    margin: 10% auto;
+}
+
+.bookingbuttoninner {
+  width: 170px;
+  height: 54px;
+  background-color: #978F10;
+  color: #FFFFFF;
+  font-size: 16px;
+  font-weight: 800;
+  display: flex;
+  align-items: center;
+  cursor:pointer;
+}
+.bookingbuttoninner::before {
+  width: 22px;
+  height: 22px;
+  content: url(/img/calender.png);
+  margin-left: 37px;
+}
+.bookingbutton-title {
+  margin-left: 10px;
+  font-size: 16px;
+  font-weight: 800;
+  line-height: 3;
+}
+}
+
+
